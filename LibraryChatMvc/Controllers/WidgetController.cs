@@ -6,7 +6,7 @@ namespace LibraryChatMvc.Controllers
     {
         public IActionResult ChatWidget()
         {
-            return PartialView();
+            return PartialView("ChatWidget");
         }
     }
 }
